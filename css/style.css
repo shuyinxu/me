@@ -1,0 +1,54 @@
+body{
+  background-color: #fafafa;
+}
+
+#about{
+  font-size: 30px;
+  font-family: 'Karla', sans-serif;
+  height: 100%;
+
+}
+
+.projects{
+  position: absolute;
+  width: 100%;
+}
+
+#placeholder{
+  position: fixed;
+  height: 100%;
+}
+
+#main{
+  height: 100%;
+  position: fixed;
+}
+
+
+.feature img {
+	margin-bottom: 15px;
+	max-width: 100%;
+	height: auto;
+}
+
+.first{
+  min-height: 100%;
+  display: block;
+  padding-bottom: 20%;
+}
+
+.header {
+  min-height: 100%;
+}
+
+.container {
+  height: 100vh;
+}
+
+/*.row{
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+}*/
