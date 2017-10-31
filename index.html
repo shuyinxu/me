@@ -28,11 +28,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <script src="js/jquery-1.9.1.js"></script>
+  <script src="js/script.js"></script>
+
+
+
 </head>
 <body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <div class="container" id = "first">
     <div class="row">
@@ -40,18 +42,18 @@
 
         <p id = "about">Hi! My name is Shuyin and I am a Computer Science Student at UC Berkeley</p>
         <div id="nav" class="fourteen columns">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#graphic_design">Graphic Design</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+
+            <a id = "graphic" class = "links"  href="#graphic_design">Graphic Design</a>
+            <a id = "projects_link" class = "links"  href="#projectspage">Projects</a>
+            <a id = "about_link" class = "links" href = "#aboutpage" >About</a>
+            <a id = "resume" class = "links"  href = "images/resume.pdf">Resume</a>
+
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div id = "graphic_design_work" class="container">
 
 
   	<div id="graphic_design" class="sixteen columns">
@@ -96,6 +98,84 @@
 
 
   </div>
+
+  <div id = "aboutpage" class="container">
+
+
+    <div id= "aboutcontainer">
+
+      <div class="three columns feature">
+
+          <h2>Welcome!</h2>
+          <img class = "about_image_top" src="images/about1.jpg" />
+          <img class = "about_image" src="images/about2.jpg" />
+          <p>Lorem ipsum dolor sit amet...</p>
+        </div>
+
+        <div class="seven columns feature">
+
+          <h2></h2>
+          <div id = "about_text">
+            <p id = "about2">Hello! I'm Shuyin! On my free time I like to
+                                  take naps, eat, and watch Korean dramas. I'm currently taking an
+                                  intro to illustrator and photoshop class! I have a special talent of
+                                  making whale noises like Destiny from Finding Dory! <br/>
+                                Fun Fact: I once ate ice cream everyday for an entire year!</p>
+
+
+          <div id = "buttons">
+            <a id = "networks" target="_blank" href = "https://github.com/shuyinxu"><img class = "icons" src = "images/github.png"></a>
+            <a id = "networks" target="_blank" href = "https://www.linkedin.com/in/shuyinxu"><img class = "icons" src = "images/linkedin.png"></a>
+            <a id = "networks" target="_blank" href = "mailto:xshuyin@berkeley.edu"><img class = "icons" src = "images/mail.png"></a>
+          </div>
+            </div>
+      </div>
+    </div>
+      <div id = "resume_part" class="container">
+        <a id = "resume" class = "links"  href="images/resume.pdf"></a>
+      </div>
+
+    </div>
+
+    <!-- projects -->
+    <div id = "projectspage" class="container">
+      <div id = "holder">
+
+
+        <div id="graphic_design" class="sixteen columns">
+          <h1>Projects</h1>
+          <p></p>
+        </div>
+
+        <div id = "proj" class="four columns feature">
+
+          <h2>One</h2>
+          <img src="images/remeeting.png" />
+          <p>Lorem ipsum dolor sit amet...</p>
+        </div>
+
+        <div id = "proj" class="three columns feature">
+
+          <h2>Two</h2>
+          <img src="images/proj1.png" />
+          <p>Lorem ipsum dolor sit amet...</p>
+        </div>
+
+        <div id = "proj" class="four columns feature">
+
+          <h2>Two</h2>
+          <img src="images/cartfind.png" />
+          <p>Lorem ipsum dolor sit amet...</p>
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+<!-- Return to Top -->
+<a href = "#first" ><img id = "arrow" src = "images/arrow.png"></a>
 
 
 <!-- End Document

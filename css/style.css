@@ -9,6 +9,13 @@ body{
 
 }
 
+#about2{
+  font-size: 20px;
+  font-family: 'Karla', sans-serif;
+  height: 100%;
+
+}
+
 .projects{
   position: absolute;
   width: 100%;
@@ -45,6 +52,162 @@ body{
   height: 100vh;
 }
 
+.links{
+  padding:3%;
+
+}
+
+#nav{
+  margin-left: 0%;
+}
+
+a{
+  text-decoration: none;
+}
+
+#graphic_design_work{
+  display: none;
+}
+
+#about_text{
+  padding-top: 15%;
+  padding-left: 10%;
+}
+
+#aboutpage{
+  display: none;
+  padding-top: .01%;
+}
+
+.open-top{
+  top:0px !important;
+}
+
+#aboutcontainer{
+  margin-top: 5%;
+}
+
+
+.show{
+  display: block;
+}
+
+.hide{
+  display: none;
+}
+
+.about_image_top {
+ background-image: url('about1.jpg');
+}
+
+
+.about_image_top:hover {
+ background-image: url('about2.jpg'), url('about1.jpg');
+}
+
+.icons:hover{
+  animation: bounce 2s infinite;
+}
+
+.icons{width: 8%;padding: 5%;cursor: pointer;}
+#buttons{
+  text-align: center;
+}
+
+#arrow{
+  display: none;
+  width: 5%;
+  position: fixed;
+  bottom: 50%;
+  right: 2%;
+}
+
+#arrow:hover{
+  animation: bounce2 1s;
+}
+
+@keyframes bounce2 {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+
+	40% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
+
+#projectspage{
+  text-align: center;
+  margin: 0 auto;
+  display: none;
+}
+
+#proj{
+
+}
+
+#holder{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+/* Extra Things */
+body{font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
+
+
+/* Extra Things */
+/*body{background: #eee ;font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}*/
 /*.row{
   height: 100%;
 }
