@@ -181,17 +181,17 @@ a{
     transition: all 0.3s ease;
 }
 #return-to-top i {
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 19px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 #return-to-top:hover {
     background: rgba(0, 0, 0, 0.9);
@@ -201,6 +201,72 @@ a{
     top: 5px;
 }
 
+.wrapper {
+   /* background:#EFEFEF; */
+   /* box-shadow: 1px 1px 10px #999; */
+   margin: auto;
+   text-align: center;
+   position: relative;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   margin-bottom: 20px !important;
+   /* width: 1000px; */
+   padding-top: 5px;
+   /* height: 500px; */
+}
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 80vh;
+    white-space:nowrap;
+}
+.scrollimages {
+  box-shadow: 1px 1px 10px #999;
+  margin: 2%;
+  max-height: 95%;
+  cursor: pointer;
+  display:inline-block;
+  display:inline;
+  zoom:1;
+  vertical-align:top;
+}
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.9);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+
+  max-height: 95%;
+  margin-top: 2%;
+  overflow-y: scroll;
+  opacity: 1;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: block;
+}
+#full{
+  opacity: 1;
+  width: 80%;
+}
 
 /* Extra Things */
 body{font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;text-align: center;margin-top: 50px;}h3 i{color: #444;}
@@ -214,4 +280,4 @@ body{font-family: 'Open Sans', sans-serif;}h3{font-size: 30px; font-weight: 400;
 
 .container{
   height: 100%;
-}*/
+}*/*/

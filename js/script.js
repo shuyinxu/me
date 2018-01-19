@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('a').click(function(){
+  $('.links').click(function(){
     $('html, body').animate({
       scrollTop: $(this.hash).offset().top
     }, 800);
@@ -68,6 +68,22 @@ $('#projects_link').on('click', function(){
 //       $('#aboutpage').hide();
 //     }
 
+  $('#biapp').on('click', function(){
+    // $("#first").fadeOut(1000);
+    $$("#cartfinddiv").css("display", "block");
+
+
+
+    $("html, body").stop().animate({
+          scrollTop: $('#cartfinddiv').offset().top
+      }, 600);
+
+    $('#projectspage').hide();
+
+
+
+  })
+
     $(document).scroll(function() {
     var y = $(this).scrollTop();
     if (y > 500) {
@@ -77,6 +93,7 @@ $('#projects_link').on('click', function(){
     }
     console.log("hepl");
   });
+
 
 
 
