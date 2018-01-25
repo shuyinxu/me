@@ -6,6 +6,31 @@ $(document).ready(function() {
     return false;
 });
 
+jQuery(function ($) {
+    $.fn.hScroll = function (amount) {
+        amount = amount || 120;
+        $(this).bind("DOMMouseScroll mousewheel", function (event) {
+            var oEvent = event.originalEvent,
+                direction = oEvent.detail ? oEvent.detail * -amount : oEvent.wheelDelta,
+                position = $(this).scrollLeft();
+            position += direction > 0 ? -amount : amount;
+            $(this).scrollLeft(position);
+            event.preventDefault();
+        })
+    };
+});
+
+$(document).ready(function() {
+    $('.wraoppper').hScroll(60); // You can pass (optionally) scrolling amount
+});
+
+$('#arrowbutton').click(function(){
+  $('html, body').animate({
+    scrollTop: $(this.hash).offset().top
+  }, 800);
+  return false;
+});
+
 
 $('#about_link').on('click', function(){
   // $("#first").fadeOut(1000);

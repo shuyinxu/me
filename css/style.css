@@ -34,7 +34,8 @@ body{
 
 .feature img {
 	margin-bottom: 15px;
-	max-width: 100%;
+	max-width: 90%;
+	box-shadow: 1px 1px 8px #dedddd;
 	height: auto;
 }
 
@@ -67,6 +68,8 @@ a{
 
 #graphic_design_work{
   display: none;
+  position:  relative;
+  overflow-y:  hidden;
 }
 
 #about_text{
@@ -77,6 +80,10 @@ a{
 #aboutpage{
   display: none;
   padding-top: .01%;
+  width: 80vw;
+  overflow-y:  hidden;
+  margin: 0auto;
+  margin-left: 5%;
 }
 
 .open-top{
@@ -148,14 +155,14 @@ a{
   text-align: center;
   margin: 0 auto;
   display: none;
+  width: 100%;
+  overflow-y:  hidden;
+  position: relative;
 }
 
-#proj{
-  text-align: center;
-}
 
 #holder{
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -218,13 +225,14 @@ a{
 .scrolls {
     overflow-x: scroll;
     overflow-y: hidden;
-    height: 100vh;
+    height: 95vh;
     white-space:nowrap;
 }
 .scrollimages {
   box-shadow: 1px 1px 10px #999;
   margin: 4%;
-  max-height: 80%;
+  margin-top:  6%;
+  max-height: 85%;
   cursor: pointer;
   display:inline-block;
   display:inline;
@@ -237,6 +245,17 @@ a{
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+#proj:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#proj{
+  text-align: center;
+  transition: transform 1s;
 }
 
 .lightbox {
@@ -252,15 +271,17 @@ a{
 	top: 0;
 	left: 0;
 	background: rgba(0,0,0,0.9);
+	overflow-y:  scroll;
 }
 
 .lightbox img {
 	/** Pad the lightbox image */
-
-  max-height: 95%;
-  margin-top: 2%;
-  overflow-y: scroll;
-  opacity: 1;
+	/* max-height: 95%; */
+	margin-top: 2%;
+	overflow-y: scroll;
+	opacity: 1;
+	overflow-y:  scroll;
+	max-width:  80%;
 }
 
 .lightbox:target {
@@ -269,6 +290,7 @@ a{
 
 	/** Unhide lightbox **/
 	display: block;
+	overflow-y:  scroll;
 }
 #full{
   opacity: 1;
@@ -298,6 +320,36 @@ a{
   transform: rotate(-50.56deg);
   z-index: -5;
 }
+
+#shapebot1{
+  position: absolute;
+  width: 414.44px;
+  height: 199.82px;
+  left: -100.82px;
+  /* top: 455.19px; */
+  bottom: 40px;
+  background: #E7F5FF;
+  transform: rotate(-126.38deg);
+  z-index: -10;
+}
+
+#shapebot2{
+  position: absolute;
+  width: 411.5px;
+  height: 240.26px;
+  left: 130.39px;
+  /* top: 650.07px; */
+  bottom: -200px;
+  background: rgba(196, 196, 196, 0.8);
+  transform: rotate(127.31deg);
+  z-index: -5;
+}
+
+#behanceimage{
+  width:  100%;
+  overflow-y:  scroll;
+}
+
 
 
 /* Extra Things */
