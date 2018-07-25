@@ -1,0 +1,79 @@
+.header{
+    margin: 0 auto;
+}
+
+.twoImages{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fourImages{
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.threeImages{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#flowDiagram{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+.oneImage{
+    width: 80%;
+}
+#team{
+    display: inline;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    color: #484C57;
+}
+.orange{
+    background: #E16A4F;
+}
+#problemHighlight{
+    width: 200px;
+    height: 10px;
+    margin-top: -40px;
+}
+
+#ideationHighlight{
+    width: 150px;
+    height: 10px;
+    margin-top: -40px;
+}
+
+#userResearchHighlight{
+    width: 400px;
+    height: 10px;
+    margin-top: -40px;
+}
+
+#midfiHighlight{
+    width: 350px;
+    height: 10px;
+    margin-top: -40px;
+}
+#team{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#budgeting{
+    margin-bottom: 20px;
+}
+.space{
+    padding: 20px;
+}

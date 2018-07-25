@@ -21,7 +21,7 @@
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
@@ -39,17 +39,18 @@
   <div class="container" id = "first">
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
-        <div id = "shape1"></div>
-        <div id = "shape2"></div>
-        <div id = "shape3"></div>
+        <div class = "shape1 blue" ></div>
+        <div class = "shape2 grey"></div>
+        <div class = "shape3 blue"></div>
 
         <p id = "about">Hi! My name is Shuyin and I am a Computer Science Student at UC Berkeley</p>
-        <div id="nav" class="fourteen columns">
+        <div id="nav" class="twelve columns">
 
             <a id = "graphic" class = "links"  href="#graphic_design">Graphic Design</a>
             <a id = "projects_link" class = "links"  href="#projectspage">Projects</a>
             <a id = "about_link" class = "links" href = "#aboutpage" >About</a>
             <a id = "resume" class = "links"  href = "images/resume.pdf">Resume</a>
+            <a id = "designChallenge" class = "links"  href="https://medium.com/@shuyinxu/design-a-day-alphabet-challenge-51ad726ee40d">Fun</a>
 
         </div>
       </div>
@@ -195,53 +196,45 @@
     <!-- projects -->
     <div id = "projectspage">
     <div  class="container">
-
       <div id = "holder">
-
-
         <div id="graphic_design" class="sixteen columns">
           <h1>Projects</h1>
           <p></p>
         </div>
+        <div class="row">
+          <div id = "proj" class="six columns feature">
+           <a href = "./proj2.html" id="remeeting">
+               <img src="images/remeeting.png" >
+           </a>
+            <!-- <a href = "https://www.behance.net/gallery/59531613/Remeeting"><img src="images/remeeting.png" /></a> -->
+          </div>
+          <div id = "proj" class="six columns feature">
+           <a href = "./proj1.html"  id="rye">
+               <img src="images/rye.png" >
+             <!-- <img id = "behanceimage" src="images/remeeting-behance.png"> -->
+           </a>
+            <!-- <a href = "https://www.behance.net/gallery/59531613/Remeeting"><img src="images/remeeting.png" /></a> -->
 
-        <div id = "proj" class="six columns feature">
-
-          <a href = "https://docs.google.com/presentation/d/1IuUQ2jisFc_AQtNWp8SQXcqnlBt5dfpBLBpqo_DHI60/edit?usp=sharing"><img src="images/sodoi.png" /></a>
-
-        </div>
-
-        <div id = "proj" class="six columns feature">
-          <a href="#behance"><img src="images/remeeting.png" ></a>
-         <a href="#_" class="lightbox" id="behance">
-           <img id = "behanceimage" src="images/remeeting-behance.png">
-         </a>
-          <!-- <a href = "https://www.behance.net/gallery/59531613/Remeeting"><img src="images/remeeting.png" /></a> -->
-
-        </div>
-
-
-
-        <div id = "proj" class="six columns feature">
-
-
-          <img src="images/proj1.png" />
-        </div>
-
-
-        <div id = "proj" class="six columns feature">
-
-          <a href = "https://docs.google.com/presentation/d/1XNY9RUOGv0nQ0wVvEfjMBDbwZlW5ttbQ0rYiC70kkKA/edit?usp=sharing"><img src="images/cartfind.png" /></a>
-        </div>
-
-
+          </div>
 
         </div>
+        <div class="row">
+          <div id = "proj" class="six columns feature">
+            <img src="images/proj1.png" />
+          </div>
+          <div id = "proj" class="six columns feature">
 
+            <a href = "https://docs.google.com/presentation/d/1XNY9RUOGv0nQ0wVvEfjMBDbwZlW5ttbQ0rYiC70kkKA/edit?usp=sharing"><img src="images/cartfind.png" /></a>
+          </div>
+        </div>
 
+        <div class="row">
+          <div id = "proj" class="six columns feature">
+            <a href = "https://docs.google.com/presentation/d/1IuUQ2jisFc_AQtNWp8SQXcqnlBt5dfpBLBpqo_DHI60/edit?usp=sharing"><img src="images/sodoi.png" /></a>
+          </div> 
+        </div>
 
-
-
-
+        </div>
     </div>
     <div id = "shapebot1"></div>
     <div id = "shapebot2"></div>
@@ -250,8 +243,6 @@
 
 <!-- Return to Top -->
 <a id = "arrowbutton" href = "#first" ><img id = "arrow" src = "images/arrow.png"></a>
-
-
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
